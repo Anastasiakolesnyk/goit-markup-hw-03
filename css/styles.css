@@ -1,0 +1,328 @@
+:root {
+  --main-color: #2e2f42;
+  --background-color: #e7e9fc;
+  --button-color: #4d5ae5;
+  --addition-color: #434455;
+  --letter-spacing: 0.02em;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--addition-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.all-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+  background-color: var(--background-color);
+  cursor: pointer;
+}
+.all-button:hover,
+.all-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.website-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+  background-color: var(--background-color);
+  cursor: pointer;
+}
+
+.website-button:hover,
+.website-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.app-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+  background-color: var(--background-color);
+  cursor: pointer;
+}
+
+.app-button:hover,
+.app-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.design-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+  background-color: var(--background-color);
+  cursor: pointer;
+}
+
+.design-button:hover,
+.design-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.marketing-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+  background-color: var(--background-color);
+  cursor: pointer;
+}
+
+.marketing-button:hover,
+.marketing-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.webstudio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.webstudio > span {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.studio {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+}
+.studio:hover,
+.studio:focus {
+  color: #4d5ae5;
+}
+
+.portfolio {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+}
+
+.portfolio:hover,
+.portfolio:focus {
+  color: #4d5ae5;
+}
+
+.contacts {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+}
+.mailto {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--addition-color);
+}
+.mailto:hover,
+.mailto:focus {
+  color: #4d5ae5;
+}
+.tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--addition-color);
+}
+.tel:hover,
+.tel:focus {
+  color: #4d5ae5;
+}
+.p-webstudio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: #e7e9fc;
+}
+.suggestions {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+}
+.suggestions-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--addition-color);
+}
+
+.webstudio-down {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.webstudio-background {
+  background-color: var(--main-color);
+}
+
+.webstudio-down > span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
+}
+
+.oder-service-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.oder-service-button:hover,
+.oder-service-button:focus {
+  background-color: #404bbf;
+}
+
+.section-h1 {
+  background-color: var(--main-color);
+}
+.main-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: var(--letter-spacing);
+}
+.section-our-team {
+  background-color: #f4f4fd;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.strategy {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+}
+.punctuality {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+}
+.diligence {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+}
+.technologies {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+}
+
+.services {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: var(--letter-spacing);
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+
+.our-team {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: var(--letter-spacing);
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+
+.strategy-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--addition-color);
+}
+
+.punctuality-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--addition-color);
+}
+
+.diligence-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--addition-color);
+}
+
+.technologies-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--addition-color);
+}

@@ -69,6 +69,11 @@ body {
   text-decoration: none;
 }
 
+.main-section{
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .all-button {
   font-weight: 600;
   font-size: 16px;
@@ -135,8 +140,7 @@ border-color: transparent;
 
 .portfolio-list{
   display: flex;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   justify-content: center;
 }
 .portfolio-list .portfolio-items:not(:last-child)
@@ -283,8 +287,6 @@ flex-wrap: wrap;
   width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
-  border: 0.5px solid #F4F4FD;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -293,17 +295,9 @@ flex-wrap: wrap;
   margin-right: 0px;
 }
 
-.suggestion-elements-add{
-   width: 360px;
-  margin-right: 24px;
-  margin-bottom: 120px;
-  border: 0.5px solid #F4F4FD;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.suggestion-elements-add:nth-child(3n)
+.suggestion-elements:nth-last-child(-n + 3)
 {
-  margin-right: 0px;
+margin-bottom: 0px;
 }
 
 .suggestions {
@@ -312,19 +306,25 @@ flex-wrap: wrap;
   line-height: 1.2;
   letter-spacing: var(--letter-spacing);
   color: var(--main-color);
-  padding-bottom: 8px;
-  padding-top: 32px;
-  padding-left: 16px;
+  margin-bottom: 8px;
 }
 .suggestions-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: var(--addition-color);
-  padding-bottom: 32px;
-  padding-left: 16px;
+ 
 }
 
+.main-suggestions{
+ padding-bottom: 32px;
+  padding-left: 16px;
+  padding-top: 32px;
+  border-left: 0.5px solid #F4F4FD;
+  border-bottom: 0.5px solid #F4F4FD;
+  border-right: 0.5px solid #F4F4FD;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
 .webstudio-down {
   font-family: "Raleway";
